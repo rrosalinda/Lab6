@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Lab6 {
         public static void main(String[] args) {
-            double number1, number2, result = 0;
+            double number1, number2, resultAdd,resultSub = 0;
 
             Scanner input =  new Scanner(System.in);
 
@@ -11,9 +11,11 @@ public class Lab6 {
             System.out.print("Number 2: ");
             number2 = input.nextDouble();
 
-            result = number1 + number2;
+            resultAdd = number1 + number2;
+            resultSub = number1 - number2;
 
-            System.out.print("Addition Result: " + result);
+            System.out.print("Addition Result: " + resultAdd);
+            System.out.print("Subtraction Result: " + resultSub);
         }
 
 }
