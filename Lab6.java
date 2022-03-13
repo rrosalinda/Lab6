@@ -1,4 +1,6 @@
+
 import java.util.Scanner;
+
 public class Lab6 {
         public static void main(String[] args) {
             double number1, number2, result = 0;
